@@ -142,6 +142,11 @@ div button {
   width: 150px;
   border: rgb(110, 23, 23);
 }
+
+button:hover {
+  background: rgb(221, 84, 84);
+}
+
 .vanessa{
   overflow: auto;
   width: 100%;
