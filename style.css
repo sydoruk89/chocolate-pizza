@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Dancing+Script|Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html {
+  width: 960px;
+  margin: auto;
+  margin-top: 5px;
+  }
+
+  /* header */
+header{
+  overflow: auto;
+  width: 100%;
+}
+
+.logo img {
+  float: left;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.logo h3 {
+  font-family: 'Parisienne', cursive;
+  font-weight: bold;
+  font-size: 35px;
+}
+.logo p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 10px;
+}
+.logo {
+  float: left;
+  margin-bottom: 15px;
+  width: 480px;
+}
+
+.icons {
+  float: right;
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.icons img:nth-child(6) {
+  margin-right: 10px;
+}
+.line {
+  clear: both;
+  background-image: url("images/hr-img.png");
+  width: 960px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+/* main */
+main h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+#post {
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  float: left;
+}
+#print{
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+}
+#main-img img{
+  width: 960px;
+  margin: 20px 0 20px 0;
+}
+.recipe-paragraph p {
+  text-indent: 25px;
+  text-align: justify;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+/* forms */
+
+input[type=checkbox] + label {
+ display: inline-block;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+
+.form1 {
+  float: left;
+  width: 35%;
+  margin-left: 40px;
+  margin-top: 32px;
+}
+.form2{
+  margin-top: 32px;
+  float: left;
+  width: 40%;
+}
+.form1 div, .form2 div{
+  margin: 12px;
+}
+
+.ingredients {
+  background-image: url("images/list-bg.png");
+  background-size: 960px 300px;
+  width: 960px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+/* h-line */
+.line2 {
+  margin-top: 25px;
+}
+
+.photo {
+  float: left;
+  margin: 5px;
+}
+.about-author{
+  float: left;
+  width: 550px;
+  margin-top: 5px;
+
+}
+.about-author h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+div button {
+  margin-top: 5px;
+  float: right;
+  background: rgb(190, 48, 48);
+  color: white;
+  padding: 12px;
+  width: 150px;
+  border: rgb(110, 23, 23);
+}
+.vanessa{
+  overflow: auto;
+  width: 100%;
+}
+
+/* footer*/
+
+footer {
+  clear:both;
+  margin-top: 150px;
+  border-top: 1px solid rgb(204, 201, 201);
+  text-align: center;
+  color: gray;
+  position: relative;
+}
+
+footer img {
+  position: absolute;
+  top: -16px;
+}
+
+footer p{
+  font-size: 13px;
+  margin-top: 35px;
+  line-height: 1.2;
+}
